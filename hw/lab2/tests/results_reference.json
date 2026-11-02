@@ -1,0 +1,2692 @@
+{
+  "passed": 148,
+  "total": 148,
+  "tests": [
+    {
+      "name": "official_required_01",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          4
+        ]
+      ],
+      "stdout": "Error type 1 at Line 4: Undefined variable \"j\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_01",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          4
+        ]
+      ],
+      "stdout": "Error type 1 at Line 4: Undefined variable \"j\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_02",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          2,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          2,
+          4
+        ]
+      ],
+      "stdout": "Error type 2 at Line 4: Undefined function \"inc\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_02",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          2,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          2,
+          4
+        ]
+      ],
+      "stdout": "Error type 2 at Line 4: Undefined function \"inc\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_03",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          4
+        ]
+      ],
+      "stdout": "Error type 3 at Line 4: Duplicated variable \"i\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_03",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          4
+        ]
+      ],
+      "stdout": "Error type 3 at Line 4: Duplicated variable \"i\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_04",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          4,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          4,
+          6
+        ]
+      ],
+      "stdout": "Error type 4 at Line 6: Redefined function \"func\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_04",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          4,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          4,
+          6
+        ]
+      ],
+      "stdout": "Error type 4 at Line 6: Redefined function \"func\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_05",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          4
+        ]
+      ],
+      "stdout": "Error type 5 at Line 4: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_05",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          4
+        ]
+      ],
+      "stdout": "Error type 5 at Line 4: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_06",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          6,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          6,
+          4
+        ]
+      ],
+      "stdout": "Error type 6 at Line 4: The left-hand side must be a variable.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_06",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          6,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          6,
+          4
+        ]
+      ],
+      "stdout": "Error type 6 at Line 4: The left-hand side must be a variable.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_07",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          4
+        ]
+      ],
+      "stdout": "Error type 7 at Line 4: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_07",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          4
+        ]
+      ],
+      "stdout": "Error type 7 at Line 4: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_08",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          8,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          4
+        ]
+      ],
+      "stdout": "Error type 8 at Line 4: Type mismatched for return.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_08",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          8,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          4
+        ]
+      ],
+      "stdout": "Error type 8 at Line 4: Type mismatched for return.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_09",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          8
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          8
+        ]
+      ],
+      "stdout": "Error type 9 at Line 8: Arguments do not match function \"func\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_09",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          8
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          8
+        ]
+      ],
+      "stdout": "Error type 9 at Line 8: Arguments do not match function \"func\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_10",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          10,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          4
+        ]
+      ],
+      "stdout": "Error type 10 at Line 4: Indexed expression is not an array.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_10",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          10,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          4
+        ]
+      ],
+      "stdout": "Error type 10 at Line 4: Indexed expression is not an array.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_11",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          11,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          11,
+          4
+        ]
+      ],
+      "stdout": "Error type 11 at Line 4: \"i\" is not a function.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_11",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          11,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          11,
+          4
+        ]
+      ],
+      "stdout": "Error type 11 at Line 4: \"i\" is not a function.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_12",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          12,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          12,
+          4
+        ]
+      ],
+      "stdout": "Error type 12 at Line 4: Array index is not an integer.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_12",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          12,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          12,
+          4
+        ]
+      ],
+      "stdout": "Error type 12 at Line 4: Array index is not an integer.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_13",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          13,
+          9
+        ]
+      ],
+      "actual": [
+        [
+          13,
+          9
+        ]
+      ],
+      "stdout": "Error type 13 at Line 9: Illegal use of \".\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_13",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          13,
+          9
+        ]
+      ],
+      "actual": [
+        [
+          13,
+          9
+        ]
+      ],
+      "stdout": "Error type 13 at Line 9: Illegal use of \".\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_14",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          14,
+          9
+        ]
+      ],
+      "actual": [
+        [
+          14,
+          9
+        ]
+      ],
+      "stdout": "Error type 14 at Line 9: Non-existent field \"n\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_14",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          14,
+          9
+        ]
+      ],
+      "actual": [
+        [
+          14,
+          9
+        ]
+      ],
+      "stdout": "Error type 14 at Line 9: Non-existent field \"n\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_15",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          15,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          15,
+          4
+        ]
+      ],
+      "stdout": "Error type 15 at Line 4: Redefined field \"x\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_15",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          15,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          15,
+          4
+        ]
+      ],
+      "stdout": "Error type 15 at Line 4: Redefined field \"x\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_16",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          16,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          16,
+          6
+        ]
+      ],
+      "stdout": "Error type 16 at Line 6: Duplicated structure name \"Position\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_16",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          16,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          16,
+          6
+        ]
+      ],
+      "stdout": "Error type 16 at Line 6: Duplicated structure name \"Position\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_required_17",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          17,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          17,
+          3
+        ]
+      ],
+      "stdout": "Error type 17 at Line 3: Undefined structure \"Position\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_required_17",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          17,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          17,
+          3
+        ]
+      ],
+      "stdout": "Error type 17 at Line 3: Undefined structure \"Position\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_optional_01",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_optional_02",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          19,
+          8
+        ],
+        [
+          18,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          19,
+          8
+        ],
+        [
+          18,
+          6
+        ]
+      ],
+      "stdout": "Error type 19 at Line 8: Inconsistent declaration of function \"func\".\nError type 18 at Line 6: Declared function \"func\" is not defined.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_optional_03",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_optional_04",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          10
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          10
+        ]
+      ],
+      "stdout": "Error type 3 at Line 10: Duplicated variable \"i\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_optional_05",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "official_optional_06",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          16
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          16
+        ]
+      ],
+      "stdout": "Error type 5 at Line 16: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_global_variables",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          9
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          9
+        ]
+      ],
+      "stdout": "Error type 3 at Line 9: Duplicated variable \"i\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_global_duplicates",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ]
+      ],
+      "stdout": "Error type 3 at Line 9: Duplicated variable \"i\".\nError type 3 at Line 10: Duplicated variable \"i\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_nominal_types",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          17
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          17
+        ]
+      ],
+      "stdout": "Error type 5 at Line 17: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_nominal_mismatch",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          16
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          16
+        ]
+      ],
+      "stdout": "Error type 5 at Line 16: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "empty",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "valid_arithmetic",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "valid_float_comparison",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_dimensions_sizes",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_dimension_mismatch",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          2
+        ]
+      ],
+      "stdout": "Error type 5 at Line 2: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_base_mismatch",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          2
+        ]
+      ],
+      "stdout": "Error type 5 at Line 2: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_parameter",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_parameter_dimension",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          2
+        ]
+      ],
+      "stdout": "Error type 9 at Line 2: Arguments do not match function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_bad_second_index",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          12,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          12,
+          2
+        ]
+      ],
+      "stdout": "Error type 12 at Line 2: Array index is not an integer.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_too_many_indices",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          10,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          2
+        ]
+      ],
+      "stdout": "Error type 10 at Line 2: Indexed expression is not an array.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_index_multiline",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          12,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          12,
+          3
+        ]
+      ],
+      "stdout": "Error type 12 at Line 3: Array index is not an integer.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scalar_index_and_float",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          10,
+          2
+        ],
+        [
+          12,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          2
+        ],
+        [
+          12,
+          2
+        ]
+      ],
+      "stdout": "Error type 10 at Line 2: Indexed expression is not an array.\nError type 12 at Line 2: Array index is not an integer.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "struct_initialization",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          15,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          15,
+          2
+        ]
+      ],
+      "stdout": "Error type 15 at Line 2: Field \"a\" cannot be initialized.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "variable_tag_collision",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          2
+        ]
+      ],
+      "stdout": "Error type 3 at Line 2: Duplicated variable \"A\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "tag_variable_collision",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          16,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          16,
+          2
+        ]
+      ],
+      "stdout": "Error type 16 at Line 2: Duplicated structure name \"A\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "field_names_are_local",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "nominal_same_definition",
+      "basic": true,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "nominal_anonymous_unique",
+      "basic": true,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          2
+        ]
+      ],
+      "stdout": "Error type 5 at Line 2: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "nominal_anonymous_shared",
+      "basic": true,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "structural_anonymous",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "structural_order",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          2
+        ]
+      ],
+      "stdout": "Error type 5 at Line 2: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "structural_nested_array",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          3
+        ]
+      ],
+      "stdout": "Error type 5 at Line 3: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "structural_nested_equal",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "struct_parameter",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "struct_return",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "struct_return_mismatch",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          8,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          2
+        ]
+      ],
+      "stdout": "Error type 8 at Line 2: Type mismatched for return.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "struct_member_array",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_shadow_restore",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_disappears",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stdout": "Error type 1 at Line 2: Undefined variable \"x\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_siblings",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_parameter_duplicate",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          2
+        ]
+      ],
+      "stdout": "Error type 3 at Line 2: Duplicated variable \"a\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_parameter_shadow",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_parameter_not_visible",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stdout": "Error type 1 at Line 2: Undefined variable \"a\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_local_function_shadow",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          11,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          11,
+          2
+        ]
+      ],
+      "stdout": "Error type 11 at Line 2: \"f\" is not a function.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_tag_shadow",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "recursive_function",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "forward_without_declaration",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          2,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          2,
+          1
+        ]
+      ],
+      "stdout": "Error type 2 at Line 1: Undefined function \"g\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "forward_with_declaration",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "mutual_recursion",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "declaration_no_definition",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          18,
+          1
+        ]
+      ],
+      "actual": [
+        [
+          18,
+          1
+        ]
+      ],
+      "stdout": "Error type 18 at Line 1: Declared function \"f\" is not defined.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "declaration_parameters_not_global",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stdout": "Error type 1 at Line 2: Undefined variable \"x\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "consistent_declarations",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "conflicting_return",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          19,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          19,
+          2
+        ]
+      ],
+      "stdout": "Error type 19 at Line 2: Inconsistent declaration of function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "conflicting_definition",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          19,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          19,
+          2
+        ]
+      ],
+      "stdout": "Error type 19 at Line 2: Inconsistent declaration of function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "conflicting_after_definition",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          19,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          19,
+          2
+        ]
+      ],
+      "stdout": "Error type 19 at Line 2: Inconsistent declaration of function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "duplicate_definition_priority",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          4,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          4,
+          2
+        ]
+      ],
+      "stdout": "Error type 4 at Line 2: Redefined function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "duplicate_parameter",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          2
+        ]
+      ],
+      "stdout": "Error type 3 at Line 2: Duplicated variable \"a\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "call_too_few",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          2
+        ]
+      ],
+      "stdout": "Error type 9 at Line 2: Arguments do not match function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "call_wrong_type",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          2
+        ]
+      ],
+      "stdout": "Error type 9 at Line 2: Arguments do not match function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "call_no_arguments",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          2
+        ]
+      ],
+      "stdout": "Error type 9 at Line 2: Arguments do not match function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "call_extra_arguments",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          2
+        ]
+      ],
+      "stdout": "Error type 9 at Line 2: Arguments do not match function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "call_checks_argument_errors",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stdout": "Error type 1 at Line 2: Undefined variable \"x\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "undefined_call_checks_args",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "stdout": "Error type 2 at Line 2: Undefined function \"f\".\nError type 1 at Line 2: Undefined variable \"x\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "condition_float",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          2
+        ]
+      ],
+      "stdout": "Error type 7 at Line 2: Condition must have type int.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "condition_array",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          2
+        ]
+      ],
+      "stdout": "Error type 7 at Line 2: Condition must have type int.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "logic_float",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          2
+        ]
+      ],
+      "stdout": "Error type 7 at Line 2: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "not_float",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          2
+        ]
+      ],
+      "stdout": "Error type 7 at Line 2: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "unary_struct",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          2
+        ]
+      ],
+      "stdout": "Error type 7 at Line 2: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "relational_struct",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          2
+        ]
+      ],
+      "stdout": "Error type 7 at Line 2: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "array_arithmetic",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          2
+        ]
+      ],
+      "stdout": "Error type 7 at Line 2: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "init_type_mismatch",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          2
+        ]
+      ],
+      "stdout": "Error type 5 at Line 2: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "lvalue_arithmetic",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          6,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          6,
+          2
+        ]
+      ],
+      "stdout": "Error type 6 at Line 2: The left-hand side must be a variable.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "lvalue_function",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          6,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          6,
+          2
+        ]
+      ],
+      "stdout": "Error type 6 at Line 2: The left-hand side must be a variable.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "lvalue_assignment_result",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          6,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          6,
+          2
+        ]
+      ],
+      "stdout": "Error type 6 at Line 2: The left-hand side must be a variable.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "lvalue_parenthesized",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "multiple_independent_errors",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          8,
+          4
+        ]
+      ],
+      "stdout": "Error type 1 at Line 2: Undefined variable \"x\".\nError type 2 at Line 3: Undefined function \"f\".\nError type 8 at Line 4: Type mismatched for return.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "invalid_type_suppression",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          17,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          17,
+          2
+        ]
+      ],
+      "stdout": "Error type 17 at Line 2: Undefined structure \"Missing\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_global_param",
+      "basic": true,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "basic_block_persists",
+      "basic": true,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "valid_comments",
+      "basic": false,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "syntax_blocks_semantics",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          "B",
+          1
+        ]
+      ],
+      "actual": [
+        [
+          "B",
+          1
+        ]
+      ],
+      "stdout": "Error type B at Line 1: syntax error, unexpected RETURN, expecting SEMI.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "lexical_blocks_semantics",
+      "basic": false,
+      "passed": true,
+      "expected": [
+        [
+          "A",
+          2
+        ]
+      ],
+      "actual": [
+        [
+          "A",
+          2
+        ]
+      ],
+      "stdout": "Error type A at Line 2: Mysterious character \"~\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_01",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          4
+        ]
+      ],
+      "stdout": "Error type 1 at Line 4: Undefined variable \"j\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_02",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          2,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          2,
+          4
+        ]
+      ],
+      "stdout": "Error type 2 at Line 4: Undefined function \"inc\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_03",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          4
+        ]
+      ],
+      "stdout": "Error type 3 at Line 4: Duplicated variable \"i\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_04",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          4,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          4,
+          6
+        ]
+      ],
+      "stdout": "Error type 4 at Line 6: Redefined function \"func\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_05",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          4
+        ]
+      ],
+      "stdout": "Error type 5 at Line 4: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_06",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          6,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          6,
+          4
+        ]
+      ],
+      "stdout": "Error type 6 at Line 4: The left-hand side must be a variable.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_07",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          7,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          7,
+          4
+        ]
+      ],
+      "stdout": "Error type 7 at Line 4: Type mismatched for operands.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_08",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          8,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          8,
+          4
+        ]
+      ],
+      "stdout": "Error type 8 at Line 4: Type mismatched for return.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_09",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          8
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          8
+        ]
+      ],
+      "stdout": "Error type 9 at Line 8: Arguments do not match function \"func\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_10",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          10,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          10,
+          4
+        ]
+      ],
+      "stdout": "Error type 10 at Line 4: Indexed expression is not an array.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_11",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          11,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          11,
+          4
+        ]
+      ],
+      "stdout": "Error type 11 at Line 4: \"i\" is not a function.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_12",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          12,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          12,
+          4
+        ]
+      ],
+      "stdout": "Error type 12 at Line 4: Array index is not an integer.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_13",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          13,
+          9
+        ]
+      ],
+      "actual": [
+        [
+          13,
+          9
+        ]
+      ],
+      "stdout": "Error type 13 at Line 9: Illegal use of \".\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_14",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          14,
+          9
+        ]
+      ],
+      "actual": [
+        [
+          14,
+          9
+        ]
+      ],
+      "stdout": "Error type 14 at Line 9: Non-existent field \"n\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_15",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          15,
+          4
+        ]
+      ],
+      "actual": [
+        [
+          15,
+          4
+        ]
+      ],
+      "stdout": "Error type 15 at Line 4: Redefined field \"x\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_16",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          16,
+          6
+        ]
+      ],
+      "actual": [
+        [
+          16,
+          6
+        ]
+      ],
+      "stdout": "Error type 16 at Line 6: Duplicated structure name \"Position\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_required_17",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          17,
+          3
+        ]
+      ],
+      "actual": [
+        [
+          17,
+          3
+        ]
+      ],
+      "stdout": "Error type 17 at Line 3: Undefined structure \"Position\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_optional_01",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          "B",
+          1
+        ]
+      ],
+      "actual": [
+        [
+          "B",
+          1
+        ]
+      ],
+      "stdout": "Error type B at Line 1: Function declarations are disabled in this mode.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_optional_02",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          "B",
+          6
+        ],
+        [
+          "B",
+          8
+        ]
+      ],
+      "actual": [
+        [
+          "B",
+          6
+        ],
+        [
+          "B",
+          8
+        ]
+      ],
+      "stdout": "Error type B at Line 6: Function declarations are disabled in this mode.\nError type B at Line 8: Function declarations are disabled in this mode.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_optional_03",
+      "basic": null,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_optional_04",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          3,
+          10
+        ]
+      ],
+      "actual": [
+        [
+          3,
+          10
+        ]
+      ],
+      "stdout": "Error type 3 at Line 10: Duplicated variable \"i\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_optional_05",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          17
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          17
+        ]
+      ],
+      "stdout": "Error type 5 at Line 17: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_optional_06",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          16
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          16
+        ]
+      ],
+      "stdout": "Error type 5 at Line 16: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_nested_shadow",
+      "basic": null,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_function_locals",
+      "basic": null,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_same_tag",
+      "basic": null,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_distinct_tags",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          2
+        ]
+      ],
+      "stdout": "Error type 5 at Line 2: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_anonymous_unique",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          5,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          5,
+          2
+        ]
+      ],
+      "stdout": "Error type 5 at Line 2: Type mismatched for assignment.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_no_decl_cascade",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          "B",
+          1
+        ]
+      ],
+      "actual": [
+        [
+          "B",
+          1
+        ]
+      ],
+      "stdout": "Error type B at Line 1: Function declarations are disabled in this mode.\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_array_sizes",
+      "basic": null,
+      "passed": true,
+      "expected": [],
+      "actual": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_scope_exit",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          1,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stdout": "Error type 1 at Line 2: Undefined variable \"a\".\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "scope_only_nominal_call",
+      "basic": null,
+      "passed": true,
+      "expected": [
+        [
+          9,
+          2
+        ]
+      ],
+      "actual": [
+        [
+          9,
+          2
+        ]
+      ],
+      "stdout": "Error type 9 at Line 2: Arguments do not match function \"f\".\n",
+      "stderr": "",
+      "returncode": 0
+    }
+  ]
+}

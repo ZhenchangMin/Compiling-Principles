@@ -1,0 +1,4 @@
+int main() {
+  int x /* outer /* inner */ tail */ = 0;
+  return x;
+}

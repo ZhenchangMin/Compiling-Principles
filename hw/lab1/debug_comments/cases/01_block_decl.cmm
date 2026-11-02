@@ -1,0 +1,4 @@
+int main() {
+  int x /* c */ = 0;
+  return x;
+}

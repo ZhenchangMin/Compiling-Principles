@@ -1,0 +1,18 @@
+Program (2)
+  ExtDefList (2)
+    ExtDef (2)
+      Specifier (2)
+        TYPE: int
+      FunDec (2)
+        ID: main
+        LP
+        RP
+      CompSt (2)
+        LC
+        StmtList (3)
+          Stmt (3)
+            RETURN
+            Exp (3)
+              INT: 0
+            SEMI
+        RC

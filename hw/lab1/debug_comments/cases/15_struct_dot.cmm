@@ -1,0 +1,6 @@
+struct S { int x; };
+int main() {
+  struct S s;
+  s /* c */ . x = 1;
+  return s.x;
+}

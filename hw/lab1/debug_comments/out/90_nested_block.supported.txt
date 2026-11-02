@@ -1,0 +1,1 @@
+Error type B at Line 1: syntax error, unexpected STAR, expecting end of file or TYPE or STRUCT.

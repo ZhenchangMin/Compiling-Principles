@@ -1,0 +1,2 @@
+Error type A at Line 2: Unterminated block comment.
+Error type B at Line 2: syntax error, unexpected end of file.

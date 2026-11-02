@@ -1,0 +1,658 @@
+{
+  "engine": "Original supplied irsim.pyc, headless Qt adapter",
+  "python": "3.8.10",
+  "passed": 130,
+  "total": 130,
+  "cases": [
+    {
+      "name": "manual_sign_-15",
+      "passed": true,
+      "instructions": 9
+    },
+    {
+      "name": "manual_sign_0",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "manual_sign_27",
+      "passed": true,
+      "instructions": 7
+    },
+    {
+      "name": "manual_fact_0",
+      "passed": true,
+      "instructions": 7
+    },
+    {
+      "name": "manual_fact_1",
+      "passed": true,
+      "instructions": 7
+    },
+    {
+      "name": "manual_fact_2",
+      "passed": true,
+      "instructions": 22
+    },
+    {
+      "name": "manual_fact_6",
+      "passed": true,
+      "instructions": 54
+    },
+    {
+      "name": "manual_fact_9",
+      "passed": true,
+      "instructions": 78
+    },
+    {
+      "name": "manual_optional_3_2",
+      "passed": true,
+      "instructions": 88
+    },
+    {
+      "name": "arithmetic_precedence",
+      "passed": true,
+      "instructions": 4
+    },
+    {
+      "name": "unary_negation",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "write_returns_zero",
+      "passed": true,
+      "instructions": 6
+    },
+    {
+      "name": "read_discarded",
+      "passed": true,
+      "instructions": 5
+    },
+    {
+      "name": "nested_calls",
+      "passed": true,
+      "instructions": 35
+    },
+    {
+      "name": "arg_value_snapshot",
+      "passed": true,
+      "instructions": 16
+    },
+    {
+      "name": "arithmetic_snapshot",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "relation_snapshot",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "nested_assignment",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "assignment_result_snapshot",
+      "passed": true,
+      "instructions": 7
+    },
+    {
+      "name": "condition_assignment",
+      "passed": true,
+      "instructions": 16
+    },
+    {
+      "name": "dangling_else",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "short_circuit_skip",
+      "passed": true,
+      "instructions": 14
+    },
+    {
+      "name": "short_circuit_calls",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "logical_value_normalized",
+      "passed": true,
+      "instructions": 30
+    },
+    {
+      "name": "nested_logic",
+      "passed": true,
+      "instructions": 11
+    },
+    {
+      "name": "relation_all",
+      "passed": true,
+      "instructions": 32
+    },
+    {
+      "name": "array_basic",
+      "passed": true,
+      "instructions": 50
+    },
+    {
+      "name": "array_2d_stride",
+      "passed": true,
+      "instructions": 97
+    },
+    {
+      "name": "array_3d_stride",
+      "passed": true,
+      "instructions": 435
+    },
+    {
+      "name": "array_4d",
+      "passed": true,
+      "instructions": 14
+    },
+    {
+      "name": "array_param_write_through",
+      "passed": true,
+      "instructions": 19
+    },
+    {
+      "name": "array_param_forward",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "array_param_alias",
+      "passed": true,
+      "instructions": 19
+    },
+    {
+      "name": "array_row_as_1d",
+      "passed": true,
+      "instructions": 24
+    },
+    {
+      "name": "array_subscript_effect",
+      "passed": true,
+      "instructions": 13
+    },
+    {
+      "name": "array_rhs_mutation",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "array_assignment_result",
+      "passed": true,
+      "instructions": 13
+    },
+    {
+      "name": "array_parenthesized",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "recursive_array",
+      "passed": true,
+      "instructions": 76
+    },
+    {
+      "name": "recursive_local_array",
+      "passed": true,
+      "instructions": 89
+    },
+    {
+      "name": "recursive_fibonacci",
+      "passed": true,
+      "instructions": 1241
+    },
+    {
+      "name": "nested_loop",
+      "passed": true,
+      "instructions": 92
+    },
+    {
+      "name": "early_return",
+      "passed": true,
+      "instructions": 15
+    },
+    {
+      "name": "unused_pure_expression",
+      "passed": true,
+      "instructions": 4
+    },
+    {
+      "name": "discard_nested_effects",
+      "passed": true,
+      "instructions": 6
+    },
+    {
+      "name": "case_sensitive",
+      "passed": true,
+      "instructions": 7
+    },
+    {
+      "name": "label_collision",
+      "passed": true,
+      "instructions": 11
+    },
+    {
+      "name": "ir_name_collision",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "unused_structure_type_only",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "unused_global_declaration",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "unused_global_array",
+      "passed": true,
+      "instructions": 8
+    },
+    {
+      "name": "division_runtime_7_3",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "division_constant_7_3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_-7_3",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "division_constant_-7_3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_7_-3",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "division_constant_7_-3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_-7_-3",
+      "passed": true,
+      "instructions": 18
+    },
+    {
+      "name": "division_constant_-7_-3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_6_-3",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "division_constant_6_-3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_-6_3",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "division_constant_-6_3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_0_-3",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "division_constant_0_-3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_1_2",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "division_constant_1_2",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_-1_2",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "division_constant_-1_2",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "division_runtime_-2147483648_3",
+      "passed": true,
+      "instructions": 17
+    },
+    {
+      "name": "division_constant_-2147483648_3",
+      "passed": true,
+      "instructions": 3
+    },
+    {
+      "name": "dynamic_relations_-3_4",
+      "passed": true,
+      "instructions": 31
+    },
+    {
+      "name": "dynamic_relations_0_0",
+      "passed": true,
+      "instructions": 31
+    },
+    {
+      "name": "dynamic_relations_7_-2",
+      "passed": true,
+      "instructions": 31
+    },
+    {
+      "name": "dynamic_relations_9_9",
+      "passed": true,
+      "instructions": 31
+    },
+    {
+      "name": "random_arithmetic_00",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_01",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_02",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_03",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_04",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_05",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_06",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_07",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_08",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_09",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_10",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_11",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_12",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_13",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_14",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_15",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_16",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_17",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_18",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_19",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_20",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_21",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_22",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_23",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_24",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_25",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_26",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_27",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_28",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_29",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_30",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_31",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_32",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_33",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "random_arithmetic_34",
+      "passed": true,
+      "instructions": 12
+    },
+    {
+      "name": "array_sum_1",
+      "passed": true,
+      "instructions": 34
+    },
+    {
+      "name": "array_sum_2",
+      "passed": true,
+      "instructions": 51
+    },
+    {
+      "name": "array_sum_3",
+      "passed": true,
+      "instructions": 68
+    },
+    {
+      "name": "array_sum_4",
+      "passed": true,
+      "instructions": 85
+    },
+    {
+      "name": "array_sum_5",
+      "passed": true,
+      "instructions": 102
+    },
+    {
+      "name": "array_sum_6",
+      "passed": true,
+      "instructions": 119
+    },
+    {
+      "name": "array_sum_7",
+      "passed": true,
+      "instructions": 136
+    },
+    {
+      "name": "array_sum_8",
+      "passed": true,
+      "instructions": 153
+    },
+    {
+      "name": "array_assignment_copy",
+      "passed": true,
+      "instructions": 33
+    },
+    {
+      "name": "array_initializer_copy",
+      "passed": true,
+      "instructions": 26
+    },
+    {
+      "name": "array_copy_short_target",
+      "passed": true,
+      "instructions": 24
+    },
+    {
+      "name": "array_copy_short_source",
+      "passed": true,
+      "instructions": 27
+    },
+    {
+      "name": "array_copy_self",
+      "passed": true,
+      "instructions": 13
+    },
+    {
+      "name": "array_copy_chain",
+      "passed": true,
+      "instructions": 39
+    },
+    {
+      "name": "array_copy_indexed_result",
+      "passed": true,
+      "instructions": 19
+    },
+    {
+      "name": "array_copy_multidim",
+      "passed": true,
+      "instructions": 141
+    },
+    {
+      "name": "array_copy_row",
+      "passed": true,
+      "instructions": 38
+    },
+    {
+      "name": "array_copy_param",
+      "passed": true,
+      "instructions": 32
+    },
+    {
+      "name": "array_copy_param_alias",
+      "passed": true,
+      "instructions": 29
+    },
+    {
+      "name": "array_copy_large",
+      "passed": true,
+      "instructions": 2116
+    }
+  ]
+}

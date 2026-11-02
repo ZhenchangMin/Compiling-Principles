@@ -1,0 +1,49 @@
+Program (1)
+  ExtDefList (1)
+    ExtDef (1)
+      Specifier (1)
+        TYPE: int
+      ExtDecList (1)
+        VarDec (1)
+          VarDec (1)
+            ID: a
+          LB
+          INT: 2
+          RB
+      SEMI
+    ExtDefList (2)
+      ExtDef (2)
+        Specifier (2)
+          TYPE: int
+        FunDec (2)
+          ID: main
+          LP
+          RP
+        CompSt (2)
+          LC
+          StmtList (3)
+            Stmt (3)
+              Exp (3)
+                Exp (3)
+                  Exp (3)
+                    ID: a
+                  LB
+                  Exp (3)
+                    INT: 0
+                  RB
+                ASSIGNOP
+                Exp (3)
+                  INT: 1
+              SEMI
+            StmtList (4)
+              Stmt (4)
+                RETURN
+                Exp (4)
+                  Exp (4)
+                    ID: a
+                  LB
+                  Exp (4)
+                    INT: 0
+                  RB
+                SEMI
+          RC

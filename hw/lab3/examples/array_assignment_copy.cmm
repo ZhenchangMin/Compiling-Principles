@@ -1,0 +1,1 @@
+int main(){int a[3],b[3];b[0]=7;b[1]=8;b[2]=9;a=b;b[0]=99;write(a[0]);write(a[1]);write(a[2]);return 0;}

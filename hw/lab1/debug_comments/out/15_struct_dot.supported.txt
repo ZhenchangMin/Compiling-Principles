@@ -1,0 +1,64 @@
+Program (1)
+  ExtDefList (1)
+    ExtDef (1)
+      Specifier (1)
+        StructSpecifier (1)
+          STRUCT
+          OptTag (1)
+            ID: S
+          LC
+          DefList (1)
+            Def (1)
+              Specifier (1)
+                TYPE: int
+              DecList (1)
+                Dec (1)
+                  VarDec (1)
+                    ID: x
+              SEMI
+          RC
+      SEMI
+    ExtDefList (2)
+      ExtDef (2)
+        Specifier (2)
+          TYPE: int
+        FunDec (2)
+          ID: main
+          LP
+          RP
+        CompSt (2)
+          LC
+          DefList (3)
+            Def (3)
+              Specifier (3)
+                StructSpecifier (3)
+                  STRUCT
+                  Tag (3)
+                    ID: S
+              DecList (3)
+                Dec (3)
+                  VarDec (3)
+                    ID: s
+              SEMI
+          StmtList (4)
+            Stmt (4)
+              Exp (4)
+                Exp (4)
+                  Exp (4)
+                    ID: s
+                  DOT
+                  ID: x
+                ASSIGNOP
+                Exp (4)
+                  INT: 1
+              SEMI
+            StmtList (5)
+              Stmt (5)
+                RETURN
+                Exp (5)
+                  Exp (5)
+                    ID: s
+                  DOT
+                  ID: x
+                SEMI
+          RC
